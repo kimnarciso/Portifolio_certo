@@ -1,0 +1,188 @@
+/*
+=======================================================================
+geral
+=======================================================================
+*/
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:calc(12px + 0.390625vw);
+}
+section h2 {
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+
+/*
+=======================================================================
+header
+=======================================================================
+*/
+header nav ul li {
+        text-align: center;
+        margin: 20px 0 20px 0;
+}
+header nav ul li a {
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+main section h2 {
+    text-align: left;
+}
+
+
+/*
+=======================================================================
+banner
+=======================================================================
+*/
+section.banner {
+text-align: center;
+margin: 0 5vw 0 5vw;
+}
+section.banner img {
+    width: 60%;
+}
+section.banner h2 {
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin: 20px 0 20px 0;
+}
+section.banner p {
+    margin: 20px 0 20px 0;
+}
+section.banner p button {
+    background: #FF6464;
+    color: white;
+    border: none;
+    font-size: 1.4rem;
+    padding: 10px 20px 10px 20px;
+    border-radius: 4px;
+}
+/*
+======================================================================
+posts
+======================================================================
+*/
+section.posts {
+    background:#EDF7FA;
+    padding: 20px 10px 20px 10px;
+}
+section.posts ul li {
+    background-color: white;
+    margin:20px 0 20px 0;
+    padding: 15px 10px 15px 10px;
+}
+section.posts ul li h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+section.posts ul li p {
+    font-size: 1.1rem;
+    margin: 15px 0 15px 0;
+    line-height: 1.4rem;
+}
+/*
+===================================================================
+works
+===================================================================
+*/
+section.works {
+    margin: 22px 10px 22px 10px;
+}
+section.works ul li {
+    margin: 20px 0 20px 0;
+}
+section.works ul li h3 {
+    font-weight: bold;
+    font-size: 1.7rem;
+    margin: 20px 10px 20px 10px;
+}
+section.works ul li p{
+    font-size: 1.25rem;
+}
+section.works ul li p.info {
+    color: #8695A4;
+    margin: 20px 10px 20px 10px;
+}
+section.works ul li p.info span {
+    background: #142850;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 4px 10px 4px 10px;
+}
+/*
+===================================================================
+footer
+===================================================================
+*/
+footer {
+    text-align: center;
+    padding: 10vw 0vw 10vw 0vw;
+}
+footer nav p a {
+    color:#21243D;
+    font-size: 1.8rem;
+    margin: 0px 5px 0px 5px;
+} 
+footer nav p {
+    padding: 0px 0px 20px 0px;
+}
+/* CSS media query dentro de um stylesheet */
+@media (min-width: 900px) {
+    header {
+        padding: 3vw 2vw 5vw 2vw;
+    }
+    header nav ul {
+        display: flex;
+        justify-content: right;
+    }
+    header nav ul li {
+        margin: 0px 20px 0px 20px;
+    }
+    section.banner h2{
+        text-align: left;
+    }
+    section.banner {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 0 10vw 0 10vw;
+        
+    }
+    section.banner div.texto {
+        text-align: left;
+        padding: 0 10vw 5vw 0vw;
+    }
+    section.banner div.imagem {
+        width: 40%;
+    }
+    section.banner img {
+        width: 90%;
+        margin: 0 0 5vw 0;
+    }
+    section.posts ul {
+        display: flex;
+        margin: 1.2vw 0 0 0;
+    }
+    section.posts ul li{
+        margin: 0 1.5vw 0 1.5vw;
+    }
+    section.posts  {
+        padding: 3vw 8vw 3vw 8vw;
+    }
+    section.works ul {
+        display: flex;
+        margin: 1.2vw 0 0 0;
+    }
+    section.works ul li {
+        margin: 0 1.5vw 0 1.5vw;
+    }
+    section.works {
+        padding: 3vw 8vw 3vw 8vw;  
+    }
+    section.works h2 {
+        padding: 0 0 1.8vw 0;
+    }
+}
