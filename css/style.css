@@ -27,6 +27,9 @@ header nav ul li a {
     text-decoration: none;
     font-weight: bold;
 }
+header nav ul li a span {
+    color: #FF6464;
+}
 main section h2 {
     text-align: left;
 }
